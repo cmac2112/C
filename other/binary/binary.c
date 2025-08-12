@@ -15,7 +15,10 @@ void bin(unsigned n)
 int main(void)
 {
     
-    bin(7);
-    printf("\n");
-    bin(2836);
+    for(int i = 0; i < 16; i++){
+        printf("%d in binary is: ", i);
+        bin(i);
+        printf("\n");
+    }
 }
+
